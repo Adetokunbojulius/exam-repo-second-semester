@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+.container {
+    margin: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    color: gray;
+
+    p{
+        text-align: center;
+    }
+
+    a{
+        background-color: blue;
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        color: white;
+        text-decoration: none;
+    }
+    
+}

@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(231, 238, 238);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+
+
+    .top{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 30px;
+    }
+
+    .mini-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 30px;
+        background-color: white;
+        margin: 10px 250px;
+        color: green;
+        border-radius: 10px;
+    }
+}
+
+/* For screens wider than 768px */
+/* @media screen and (min-width: 768px) {
+  
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: gray;
+
+
+        .top{
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 30px;
+        }
+
+        .mini-container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            padding: 10px;
+            background-color: white;
+            margin: 10px 250px;
+            color: green;
+            border-radius: 10px;
+        }
+    }
+
+} */
+
+/* For screens narrower than 768px */
+@media screen and (max-width: 767px) {
+  /* body {
+    font-size: 14px;
+  } */
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: gray;
+
+
+        .top{
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 30px;
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+
+        .mini-container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            padding: 10px;
+            background-color: white;
+            margin: 10px 25px;
+            color: green;
+            border-radius: 10px;
+        }   
+    }
+}
